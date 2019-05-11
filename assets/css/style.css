@@ -1,0 +1,50 @@
+#bg {
+    background-image: url("../images/abstract_tech.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: cover;
+    height: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    z-index: 0;
+}
+
+img.bg {
+    opacity: 0.5;
+}
+
+#main-content {
+    z-index: 1;
+    opacity: 1;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    height: 100%;
+
+}
+
+#myfooter {
+    border: 1px solid white;
+    background-color: white;
+    opacity: 0.5;
+    color: black;
+    padding-top: 1em;
+}
+
+.about_content {
+    margin-left: 5%;
+}
+
+.btn {
+    width: auto;
+    margin: 1%;
+}
